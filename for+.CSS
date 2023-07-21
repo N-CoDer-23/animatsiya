@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.parent{
+    width: 100%;
+    height: 100vh;
+    background: rgb(51, 47, 99);
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar h1{
+    margin-left: 60px;
+}
+.navbar ul{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    list-style: none;
+    padding: 20px;
+}
+span{
+    padding-left: 550px;
+}
+.join{
+    margin-right: 100px;
+    padding: 8px 18px;
+    background: dodgerblue;
+    color: white;
+    border: none;
+    margin-top: 20px;
+}
+.oyna{
+    text-align: center;
+    width: 300px;
+    margin: auto;
+    margin-top: 50px;
+    color: white;
+}
+.welcom{
+    
+    color: blue;
+}
+h1{
+    padding: 20px 0;
+}
+p{
+    padding: 0 0 5px 0;
+}
+button{
+    padding: 10px 20px;
+    background: dodgerblue;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.btn{
+    border: 1.5px solid dodgerblue;
+    background: transparent;
+}
+.card-2{
+    display: flex;
+    gap: 50px;
+    margin: 20px 0 10px 275px;
+}
+.card{
+    width: 250px;
+    height: 200px;
+    background: white;
+    text-align: center;
+    padding-top: 50px;
+    
+    display: block;
+    gap: 50px;
+}
+.card-3{
+    width: 250px;
+    height: 200px;
+    background: rgb(50, 148, 246);
+    text-align: center;
+    padding-top: 50px;
+    
+    display: block;
+    gap: 50px;
+}
+.card-3 i{
+    width: 50px;
+    height: 50px;
+    padding-top: 15PX;
+    border-radius: 10PX;
+    background-color: white;
+    text-align: center;
+}
+.card i{
+    width: 50px;
+    height: 50px;
+    padding-top: 15PX;
+    border-radius: 10PX;
+    background-color: greenyellow;
+    text-align: center;
+}
+
+.card-3 b{
+    border-bottom: 1px solid red;
+}
+.card-3 p{
+    margin-bottom: 20PX;
+}
+.card b{
+    border-bottom: 1px solid red;
+    width: 5%;
+    
+}

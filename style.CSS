@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.title{
+    text-align: center;
+    color: red;
+    margin-top: 50px;
+    
+    /* razmeri */
+    font-size: 40px;
+    /* qalin-semizlik */
+    font-weight: 800;
+    /* text-qiyshiq */
+    font-style: italic;
+    /* shiziq */
+    text-decoration: line-through;
+    /* chiziq pastga */
+    text-decoration: underline;
+}
+.box{
+    width: 150px;
+    height: 100px;
+    background: pink;
+    /* hamma tomonga */
+    padding: 20px;
+    /* top-bottom and right-left */
+    padding: 5px 20px;
+    /* top-right-bottom-left */
+    padding: 10px 3px 25px 15px;
+
+    margin: 30px 20px;
+    border-radius: 16px 16px 16px 0px;
+}
+.btn{
+    margin: 0px 30px;
+    padding: 10px 30px;
+    border-radius: 0px 16px;
+    background: dodgerblue;
+    color: white;
+    border: none;
+    transition: 0.3s;
+}
+.btn:hover{
+    border-radius: 16px 0;
+    background: blue;
+}
