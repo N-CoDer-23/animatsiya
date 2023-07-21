@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    min-height: 500vh;
+}
+.main{
+    width: 100%;
+    height: auto;
+    background: url("./img/bg-hero.jpg") no-repeat center/cover;
+}
+.main__shadow{
+    width: 100%;
+    height: 100%;
+    background: #03032eda;
+}
+.navbar{
+    width: 100%;
+    height: 90px;
+    padding: 0px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav__logo{
+    color: #FEA116;
+}
+.nav__collection{
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 30px;
+    list-style: none;
+}
+.nav__item{
+    transition: 0.3;
+}
+.nav__item:hover{
+    color: #FEA116;
+    cursor: pointer;
+}
+.btn{
+    padding: 10px 25px;
+    background: #FEA116;
+    border: none;
+    color: white;
+    border-radius: 4px;
+}
+.banner{
+    padding: 50px 10%;
+    display: flex;
+    gap: 50px;
+}
+
+.banner__image,
+.banner__text{
+    width: 50%;
+    min-height: auto;
+    
+}
+.banner__text h1{
+    color: white;
+    font-size: 60px;
+    padding-top: 80px;
+}
+.banner__text p{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.banner__image img{
+    width: 100%;
+
+    animation: aylan 60s linear infinite;
+}
+@keyframes aylan {
+    to{
+        transform: rotate(360deg);
+    }
+}
+.four__iteams{
+    display: flex;
+    padding: 80px 10%;
+    gap: 30px;
+    justify-content: center;
+}
+.box{
+    width: 250px;
+    height: 150px;
+    box-shadow: 0 0 15px #0002;
+    padding: 30px 16px;
+    transition: .3s;
+}
+.box:hover{
+    background: #FEA116;
+    color: white;
+}
+.ucraw{
+    width: 100%;
+    height: 100vh;
+    
+    display: flex;
+}
+.table i{
+    color: #FEA116;
+    margin: 10px;
+    margin-top: 20px;
+}
+.ucraw h1{
+    color: white;
+    padding: 20px 10px;
+}
+.rasm img{
+    width: 110%;
+    height: 100vh;
+}
+.table{
+    width: 80%;
+    height: auto;
+    background: rgb(25, 25, 48);
+}
+form input{
+    padding: 15px 10%;
+    margin:10px;
+    margin-left: 60px;
+}
+.book{
+    display: block;
+    margin: 0 20px;
+    width: 80%;
+    padding: 15px 0;
+    background: #FEA116;
+    color: white;
+    margin: 20px 60px ;
+}
+.table textarea{
+    width: 80%;
+    margin: 30px 55px;
+}
+.emile{
+    
+    margin-right: 33px;
+}
+.emile input{
+    
+    padding: 18px 55px;
+
+}
+.number input{
+    padding: 18px 69px;
+
+}
+.taw{
+    text-align: center;
+    color: #FEA116;
+    margin-top: 100px;
+    
+}
+.tawqa{
+    text-align: center;
+  
+
+}
+
+.chef{
+    width: 100%;
+    height: auto;
+    background: rgb(255, 255, 255);
+    display: flex;
+    gap: 50px;
+}
+
+.card h3{
+    padding: 15px 0 0;
+}
+.card{
+    width: 300px;
+    height: 300px;
+    border: 1px solid dodgerblue;
+    
+    
+    
+    text-align: center;
+    border-radius: 5px;
+    margin: 50px 30px 50px 30px
+    
+    
+}
+ .card img{
+    width: 200px;
+    height: 190px;
+    border-radius: 50%;
+    margin-top: 10px;
+    
+}
+
+
+.client{
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 50px;
+}
+
+.card-2{
+    width: 300px;
+    height: 200px;
+    border: 1px solid blue;
+    display: flex;
+    margin-top: 100px;
+    text-align: center;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    transition: .3s;
+    
+    
+}
+
+.card-2 img{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin: 100px 20px;
+}
+.card-2 p{
+    display: block;
+    padding: 50px 20px;
+}
+.card-2:hover{
+    background: #FEA116;
+    color: white;
+    border: 1px solid rgb(153, 255, 0);
+}
+.tash{
+    text-align: center;
+    color: #FEA116;
+    margin: 80px 0 0;
+}
+.ta{
+    text-align: center;
+}
+
+
+.parent{
+    width: 100%;
+    height: auto;
+    background: rgb(26, 26, 47);
+    
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+.oyna{
+    width: 300px;
+    height: 400px;
+    
+    margin-top: 50px;
+    color: white;
+    list-style: none;
+    
+    
+}
+.oyna input{
+   
+    margin: 10px 0;
+}
+.btnn{
+    padding: 10px 30px;
+    background: #FEA116;
+    color: white;
+    
+}
